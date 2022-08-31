@@ -1,38 +1,135 @@
-
-
-.navbar-nav a{
-    text-decoration: none;
+.nav-link {
+    color: black;
 }
 
-.navbar-nav a:link{
+.nav-link a:visited{
     color:  black;
+}
+  
+.nav-link a:hover{
+    color:  red;
+}
+
+.navbar{
+    position: sticky;
+   top: 0;
+   z-index: 1;
 }
   
 .float-footer-content a:visited{
     color:  black;
 }
   
-.navbar-nav a:hover{
+/* .navbar-nav a:hover{
     color:  black;
     background-color: grey;
     border: 1px solid grey;
     width: 50px;
     height: 20px;
-}
+} */
   
-.float-footer-content a:active{
-    color:  black;
+.bg-image{
+    background-image: url('../images/macbook.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
 }
 
-.homepage {
-    display: flex;
-    width: 80%;
-}
-
-#homepage {
+#clients {
     border: 1px solid green;
+    background-color: green;
+    color: aliceblue;
     width: 200px;
-    height: 200px;
-    padding: 50px;
+    height: 100px;
+    margin: 0 0 0 60px;
+    padding: 30px 30px 30px 50px;
 }
+
+#projects {
+    border: 1px hidden green;
+    background-color: blue;
+    color: aliceblue;
+    width: 200px;
+    height: 100px;
+    padding: 10px 30px 30px 60px;
+}
+
+#codes {
+    border: 1px hidden black;
+    background-color: red;
+    color: aliceblue;
+    width: 200px;
+    height: 100px;
+    padding: 30px 30px 30px 60px;
+}
+
+#followers {
+    border: 1px hidden black;
+    background-color: orange;
+    color: aliceblue;
+    width: 200px;
+    height: 100px;
+    padding: 30px 30px 30px 60px;
+}
+
+/* img {
+   margin: 20px 0 0 200px;    
+} */
+
+button {
+    background-color: rgb(177, 10, 10);
+    color: aliceblue;
+    border: none;
+}
+
+.edu {
+    width: 450px;
+    height: 150px;
+    overflow-y: hidden;
+}
+
+.card {
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+input{
+    height: 70px;
+    width: 500px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid grey;
+}
+
+textarea{
+    height: 100px;
+    width: 500px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid grey;
+}
+
+#message{
+    font-size: 30px;
+    color: grey;
+}
+
+.inp {
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: aliceblue;
+    background-color: rgb(7, 77, 77);
+}
+
+#image {
+    margin: 10px 0 0 100px;
+}
+
+
 
